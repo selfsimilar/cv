@@ -1,0 +1,14 @@
+body { 
+	background-image:url(/images/bluebacon.png);
+	padding-left: 100px; 
+}
+div#technical_summary div#column1 { width: 440px; }
+div#technical_summary div#column2 { width: 200px; }
+div#technical_summary div#column1 li, div#technical_summary div#column2 li{ font-size: 0.65em; }
+div#contact { position: absolute; top: 20px; }
+#pdf {
+	position: absolute;
+  /* IE5.5+/Win - this is more specific than the IE 5.0 version */
+  left: expression( ( 8 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+  top: expression( ( 9 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}

@@ -1,0 +1,9 @@
+#envelope
+{
+	background-color:transparent;
+	border:none;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+#cover_letter, #resume { background-color: white; padding:0.5em 3.5em; margin:0.5em auto; width:60em; border: solid 1px gray; }

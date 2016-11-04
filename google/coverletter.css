@@ -1,0 +1,3 @@
+#cover_letter p { text-indent: 0em; }
+#cover_letter { font-family: "Times New Roman", Times, FreeSerif, Georgia, "DejaVu Serif", serif; }
+#cover_letter #body { margin: 4em 0 2em; }

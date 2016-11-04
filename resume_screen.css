@@ -1,0 +1,35 @@
+body { 
+	background-color:#36667A; background-image:url(images/bacon.png); background-repeat:repeat-y;
+	padding-left: 75px; font-size:80%; 
+}
+a, a:link { color: #26566A; text-decoration: underline; }
+a:visited { color: black; text-decoration: underline;  }
+a:hover   { color: #36667A; font-style:italic; }
+#envelope { background-color: white; padding:0.5em 3.5em; margin:0.5em auto; width:60em; border: solid 1px gray; }
+#name { margin:0; padding:0.5em 0 0.25em 0; }
+#pdf {
+	display: block;
+	position: fixed; top: 9px; left: 8px;
+}
+#pdf a, #pdf a:link, #pdf a:visited {
+	color: white;
+	text-decoration: none;
+}
+#pdf a {
+	display:block;
+	background-color:#26566A;
+	border:1px dotted white;
+	font-size:1.2em;
+	padding:0.5em 0;
+	text-align:center;
+	width:75px;
+}
+#pdf a:hover 
+{
+	color: #26566A;
+	background-color: white;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+div#technical_summary div#column1 { width: 520px; }
+div#technical_summary div#column2 { width: 190px; }
